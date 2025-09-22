@@ -1,7 +1,9 @@
-````markdown
 # 📺 Netflix SQL Project
-
-This project explores the **Netflix dataset** using **PostgreSQL**.  
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL Logo" width="80" style="margin-right:30px;"/>
+  <img src="https://github.com/github/explore/blob/main/topics/netflix/netflix.png?raw=true" alt="Netflix Logo" width="80"/>
+</p>  
+This project explores the Netflix dataset  using PostgreSQL.  
 The goal is to analyze movies and TV shows available on Netflix and answer key business questions using SQL queries.
 
 ---
@@ -13,7 +15,6 @@ The goal is to analyze movies and TV shows available on Netflix and answer key b
 ---
 
 ## 🗄️ Dataset
-- Source: [Netflix dataset on Kaggle](https://www.kaggle.com/shivamb/netflix-shows) *(or replace with your source)*  
 - Contains details about shows, movies, directors, cast, countries, release years, ratings, and genres.  
 - Columns:
   - `show_id`  
@@ -164,11 +165,4 @@ LIMIT 5;
 * **PostgreSQL** 13+
 * **SQL** (DDL, DML, Window Functions, String Functions)
 
----
 
-## 📜 License
-
-This project is open-source under the MIT License.
-
-```
-```
